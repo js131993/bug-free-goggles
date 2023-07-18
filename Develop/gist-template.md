@@ -1,10 +1,10 @@
-# Title (replace with your title)
+# REVIEW OF REGEX
 
-Introductory paragraph (replace this with your text)
+For this assignment, I will be reviewing the following topics in REGEX.
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+I will be covering different topics in regex, which include anchors, quanitifiers, OR Operator, Character Classes, flags, (grouping and capturing), Bracket Expressions, greedy and lazy match, boundaries, back-references, and look-ahead and look-behind.
 
 ## Table of Contents
 
@@ -23,13 +23,19 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ## Regex Components
 
 ### Anchors
+An anchor does not match any character. These match a certain position amongst the characters. The position can be at the beginning, middle or end of the characters. 
 
+Anchors are used to check positional boundaries.
 ### Quantifiers
+Quantifiers specify the how many instances of a character, group, or character class must be present in the input for a match to be found.
 
+There are greedy and lazy quantifiers. Greedy reresents the longest possible string that can be produced and lazy is the shortest possible string. *?  The question mark turns the greedy quantifier to the lazy quantifier.
 ### OR Operator
+The OR operator returns a boolean value.  The boolean value will be true if either or both operands is true.  Otherwise it is false.
 
+The OR operator is shown by two pikes, shown to the right (||)
 ### Character Classes
-
+A character class uses different characters to distinguish between letters and digits.
 ### Flags
 
 ### Grouping and Capturing
